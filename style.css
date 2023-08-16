@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-weight: "Gilroy";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100%;
+    width: 100%;
+    background-color:  rgb(183, 215, 183);
+}
+#panal{
+    overflow: hidden;
+
+    border-radius: 10px;
+    height: 80%;
+    width: 70%;
+    background-color: #fff;
+
+}
+#panaltop{
+    padding: 0% 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 25px;
+    height: 100px;
+    width: 100%;
+    color: #fff;
+    font-weight: 500;
+    background-color: rgb(105, 192, 105);
+}
+.box{
+    
+    
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+    color: rgb(27, 178, 30);
+    font-size: 25px;
+    font-weight: 600;
+}
+.elem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#panalbotom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: calc(100% - 100px);
+    
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: #fff;
+    width: 40px;
+    font-weight: 500;
+    height: 40px;
+    border-radius: 100%;
+    background-color: rgb(138, 200, 138);
+}
+.bubble:hover{
+    background-color: rgb(31, 101, 31);
+}
